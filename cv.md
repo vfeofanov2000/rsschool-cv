@@ -23,3 +23,5 @@ function multiply(a, b) {
 ```
 ## Experience
 none
+## Education
+secondary special
