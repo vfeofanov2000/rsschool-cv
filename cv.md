@@ -15,3 +15,9 @@ My goal is to learn everything new and exciting. I love to code. I love spend a 
     + Chrome
     + Figma
     + GitHub
+## Examples code
+```
+function multiply(a, b) {
+    return a * b;
+}
+```
