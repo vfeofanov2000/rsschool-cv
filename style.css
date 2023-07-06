@@ -9,26 +9,45 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* font-family: 'Sarina', cursive; */
+html {
+    scroll-behavior: smooth;
+}
 
 * {
     box-sizing: border-box;
 }
 
 .header {
-    min-height: 100vh;
-
     background-color: #222324;
 }
 
-.main {
-    min-height: 100vh;
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
 
-    border: 1px solid red;
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    font-family: 'Sarina', cursive;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link:hover {
+    color: #00FF0A;
+}
+
+.main {
+    
 }
 
 .footer {
-    border: 1px solid red;
+    
 }
 
 .container {
