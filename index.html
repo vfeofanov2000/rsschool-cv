@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Sarina&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonticons.css">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/favicon.ico">
 </head>
@@ -15,32 +16,117 @@
         <div class="container">
             <nav class="nav">
                 <ul class="nav-list">
-                    <li class="nav-item"><a href="#" class="nav-link">Summary</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Skills</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Code</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Education</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">English</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">English</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main class="main">
         <div class="container">
-            <div class="section" id="profile">
-                
+            <div class="section summary" id="summary">
+                <div class="summary-container">
+                    <div class="summary-title">
+                        Hello, I'm
+                        <h1 class="section-subtitle"><span class="subtitle-title">Valera</span> Feofanov</h1>
+                    </div>
+                    <p class="summary-text">
+                        My goal is to learn everything new and exciting. I love to code. 
+                        I love spend a lot of time doing what interests me. 
+                        My core strengths are in problem solving and fast learning.
+                        I want to get knowledge and skills that will be enough for become 
+                        frontend developer.
+                    </p>
+                    <ul class="contact-list">
+                        <li class="contact-item">
+                            <a href="https://github.com/vfeofanov2000" class="contact-link">
+                                <i class="fa-brands fa-github contact-img"></i>
+                            </a>
+                            <a href="mailto:vfeofanov2000@gmail.com" class="contact-link">
+                                <i class="fa-solid fa-envelope contact-img"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <img src="assets/avatar.png" alt="avatar" class="summary-img">
             </div>
-            <div class="section"></div>
-            <div class="section"></div>
-            <div class="section"></div>
-            <div class="section"></div>
-            <div class="section"></div>
-            <div class="section"></div>
+            <div class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-list">
+                    <div class="skills-item">
+                        <i class="fa-brands fa-html5 skills-img"></i>
+                        <h3 class="skills-subtitle">HTML</h3>
+                    </div>
+                    <div class="skills-item">
+                        <i class="fa-brands fa-css3-alt skills-img"></i>
+                        <h3 class="skills-subtitle">CSS</h3>
+                    </div>
+                    <div class="skills-item">
+                        <i class="fa-brands fa-square-js skills-img"></i>
+                        <h3 class="skills-subtitle">JavaScript</h3>
+                    </div>
+                    <div class="skills-item">
+                        <i class="fa-brands fa-git-alt skills-img"></i>
+                        <h3 class="skills-subtitle">Git</h3>
+                    </div>
+                    <div class="skills-item">
+                        <i class="fa-brands fa-figma skills-img"></i>
+                        <h3 class="skills-subtitle">Figma</h3>
+                    </div>
+                    <div class="skills-item">
+                        <i class="fa-brands fa-github skills-img"></i>
+                        <h3 class="skills-subtitle">Figma</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <code class="code-div">
+<pre>
+<span class="code-subdiv">function</span> multiply<span class="code-subdiv">(</span>a<span class="code-subdiv">,</span> b<span class="code-subdiv">)</span> <span class="code-subdiv">{</span>
+    <span class="code-subdiv">return</span> a <span class="code-subdiv">*</span> b<span class="code-subdiv">;</span>
+<span class="code-subdiv">}</span>
+</pre>
+                </code>
+            </div>
+            <div class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-list">
+                    <div class="projects-item">
+                        <img src="assets/imgs/cv.png" alt="cv" class="projects-img">
+                        <div class="projects-container">
+                            <h3 class="projects-subtitle">CV</h3>
+                            <div class="projects-elements">
+                                <i class="fa-brands fa-html5 projects-element"></i>
+                                <i class="fa-brands fa-css3-alt projects-element"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section section-list">
+                <div class="section-item" id="education">
+                    <h2 class="section-title">Eduction</h2>
+                    <p class="section-text">Secondary Special</p>
+                </div>
+                <div class="section-item" id="languages">
+                    <h2 class="section-title">English</h2>
+                    <p class="section-text">A1</p>
+                </div>
+            </div>
         </div>
     </main>
     <footer class="footer">
         <div class="container">
-
+            <div class="footer-date">2023</div>
+            <a href="https://rs.school/" class="footer-link" target="_blank">
+                <img src="assets/rs.svg" alt="rs school" class="footer-img">
+            </a>
         </div>
     </footer>
 </body>
