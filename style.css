@@ -144,6 +144,7 @@ html {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    list-style: none;
 }
 
 .skills-item {
@@ -181,11 +182,24 @@ html {
     color: #00FF0A;
 }
 
+.projects-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
 .projects-item {
     display: flex;
     flex-direction: column;
     border: 1px solid #FFFFFF;
     border-radius: 20px;
+    margin: 0 20px;
+}
+
+.projects-link {
+    text-decoration: none;
 }
 
 .projects-img {
@@ -252,4 +266,29 @@ html {
 
 .footer-img {
     width: 100px;
+}
+
+@media (max-width: 1220px) {
+    .section-subtitle {
+        font-size: 40px;
+    }
+    .summary-text {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1020px) {
+    .section-subtitle {
+        font-size: 30px;
+    }
+    .summary-img {
+        width: 50%;
+    }
+}
+
+@media (max-width: 900px) {
+    .summary {
+        flex-direction: column;
+        padding: 60px 0;
+    }
 }
