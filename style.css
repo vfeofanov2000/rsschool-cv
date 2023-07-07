@@ -145,6 +145,7 @@ html {
     align-items: center;
     flex-wrap: wrap;
     list-style: none;
+    padding: 0;
 }
 
 .skills-item {
@@ -188,6 +189,7 @@ html {
     align-items: center;
     list-style: none;
     flex-wrap: wrap;
+    padding: 0;
 }
 
 .projects-item {
@@ -315,12 +317,25 @@ html {
     display: block;
 }
 
+.header .open{
+    background-color: #222324;
+}
+
+@media (max-width: 1440px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
 @media (max-width: 1220px) {
     .section-subtitle {
-        font-size: 40px;
+        font-size: 30px;
     }
     .summary-text {
         font-size: 15px;
+    }
+    .container {
+        max-width: 1000px;
     }
 }
 
@@ -329,7 +344,10 @@ html {
         font-size: 30px;
     }
     .summary-img {
-        width: 50%;
+        width: 70%;
+    }
+    .container {
+        max-width: 800px;
     }
 }
 
@@ -338,7 +356,7 @@ html {
         display: block;
     }
     .summary {
-        flex-direction: column;
+        flex-direction: column-reverse;
         padding: 60px 0;
     }
     .nav {
@@ -349,10 +367,22 @@ html {
 
     .nav-list {
         flex-direction: column;
+        padding: 0;
     }
     
     .nav-item {
         margin: 10px 0;
+    }
+    .container {
+        max-width: 600px;
+    }
+
+    .section-list {
+        flex-direction: column;
+    }
+
+    .section-item {
+        margin: 20px 0;
     }
 }
 
@@ -360,5 +390,11 @@ html {
     .footer .container {
         flex-direction: column;
     }
-    
+    .code-div {
+        font-size: 20px;
+    }
+    .projects-img {
+        width: 200px;
+        border-radius: 20px;
+    }
 }
